@@ -1,0 +1,153 @@
+/* the styles for the elements */
+html{
+	background-color: white;
+	background:url("images/background-cv.jpg");
+
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	width: 600px;
+	margin: 0 auto;
+	padding: 3px;
+	border: 3px solid #800000;
+	background-color: wheat;
+	
+	
+	
+}
+
+
+
+header{
+	border-bottom:3px solid #800000 ;
+	position: relative;
+	padding: 0.1px;
+	background-color: rgb(201, 194, 194)	;
+}
+header h1{
+	color: #800000;
+	text-indent: 30px;
+	font-size: 150%;
+	text-align: center;
+
+}
+header h2{
+	font-style: italic;
+	text-align: center;
+}
+.li{
+	
+	line-height: 20px;
+	height: 20px;
+	background-color: cornflowerblue;
+	text-decoration: none;
+	width: 200px;
+	margin: 5px 0;
+
+}
+
+#ul1{
+	float: left;
+	
+}
+#ul2{
+	float: right;
+	margin-right: 40px;
+	
+}
+.li:hover{
+	background-color: darkcyan;
+	color: darkred;
+	cursor:grab;
+}
+footer{
+	border-top:3px solid #800000 ;
+	
+}
+footer p{
+	font-size: 150%;
+	color: #800000;
+	text-align: right;
+	font-size: 15px;
+
+}
+
+
+.h1color{
+	color: #800000;
+	text-align: center;
+	
+	
+	
+}
+
+footer{
+	text-align: center;
+	clear: both;
+}
+#shadow{
+	text-shadow: 2px 2px #800000;
+}
+
+a:hover{
+	font-style: italic;
+}
+
+
+/* the styles for the header */
+header img {
+	float: left;
+}
+
+#h1border{
+	border-top: 3px solid #800000 ;
+	clear: both;
+	padding: 40px;
+	margin: 0 35px;
+}
+
+.divmargin{
+	margin-bottom: 25px;
+	margin-left: 40px;
+	clear: both;
+	
+}
+
+
+
+/* the styles for the section */
+main {
+	clear: left;
+}
+
+/* the styles for the footer */
+.divmargin1{
+	float: left;
+	border: 3px solid #800000 ;
+	background-color: thistle;
+
+}
+.divmargin2{
+	float: right;
+	border:3px solid #800000 ;
+	background-color: thistle;
+}
+.divmargin3{
+	float: left;
+	border: 3px solid #800000 ;
+	background-color: thistle;
+	position: relative;
+	right: 40px;;
+	margin-top: 30px;
+	
+}
+.divmargin4{
+	float: right;
+	border: 3px solid #800000 ;
+	background-color: thistle;
+	margin-top: 30px;
+	
+	
+	
+}
